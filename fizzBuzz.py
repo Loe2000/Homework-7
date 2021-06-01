@@ -7,5 +7,6 @@ def fizzBuzz(a) :
         return "Fizz"
     if ( a % 5 == 0 ):
         return "Buzz"
-    return
+    return a
+    
 
