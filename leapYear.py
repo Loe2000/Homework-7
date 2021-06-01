@@ -7,4 +7,4 @@ def leapYear(a):
         return False
     if ( a % 4 == 0 ):
         return True
-    return
+    return False
