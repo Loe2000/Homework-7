@@ -7,4 +7,3 @@ def fizzBuzz(a) :
         return "Buzz"
     return
 
-
