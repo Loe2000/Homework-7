@@ -8,7 +8,8 @@ class testCaseFizzBuzz(unittest.TestCase):
         self.assertEqual (fizzBuzz.fizzBuzz(20), "Buzz")
     def testFizzBuzz(self):
         self.assertEqual (fizzBuzz.fizzBuzz(135), "FizzBuzz")
-    
+    def testFizzBuzz(self):
+        self.assertEqual (fizzBuzz.fizzBuzz(52), 52)
 
 
 if __name__ == "__main__":
