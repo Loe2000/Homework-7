@@ -3,7 +3,7 @@ import leapYear
 
 class testCaseLeapYear(unittest.TestCase):
     def testmod400(self):
-        self.assertEqual (leapYear.fizzBuzz(2000), True)
+        self.assertEqual (leapYear.leapYear(2000), True)
     
     
 
