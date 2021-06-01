@@ -6,7 +6,8 @@ class testCaseLeapYear(unittest.TestCase):
         self.assertEqual (leapYear.leapYear(2000), True)
     def testmod100(self):
         self.assertEqual (leapYear.leapYear(1900), False)
-    
+    def testmod4(self):
+        self.assertEqual (leapYear.leapYear(1024), True)
 
 if __name__ == "__main__":
     unittest.main()
